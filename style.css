@@ -32,6 +32,10 @@
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
 html,body{ height:100%; }
+/* anchor offset for fixed header */
+html { scroll-padding-top: 110px; }
+/* apply offset to any anchor target */
+[id] { scroll-margin-top: 110px; }
 html { scroll-padding-top: 90px; }
 .section { scroll-margin-top: 90px; }
 body{
@@ -451,6 +455,7 @@ h1{
   .materials{ grid-template-columns: 1fr; }
 
 }
+
 
 
 
