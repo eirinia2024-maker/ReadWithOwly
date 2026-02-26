@@ -219,6 +219,7 @@ h1{
 .checklist{ margin:0; padding-left:18px; color:var(--muted); font-size:14px; line-height:1.55; }
 
 /* Sections */
+.section { scroll-margin-top: 90px; }
 .section{ padding:56px 0; }
 .section--alt{
   background: rgba(255,255,255,.55);
@@ -447,5 +448,6 @@ h1{
   .materials{ grid-template-columns: 1fr; }
 
 }
+
 
 
