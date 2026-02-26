@@ -203,7 +203,34 @@ h1{
 .chip:nth-child(2){ border-left: 6px solid rgba(246,217,122,.90); }
 .chip__title{ display:block; font-weight:900; margin-bottom:4px; font-family: Nunito, Inter, sans-serif; }
 .chip__text{ color:var(--muted); font-size:14px; }
+/* Kому подойдёт (mini card in hero) */
+.fit{
+  margin: 14px 0 12px;
+  padding: 14px 14px;
+  background: rgba(255,255,255,.82);
+  border: 1px solid rgba(31,42,46,.10);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow2);
+  border-left: 6px solid rgba(201,182,228,.85); /* lavender accent */
+}
 
+.fit__title{
+  font-family: Nunito, Inter, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.fit__list{
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.fit__list li{ margin: 6px 0; }
+.fit__list strong{ color: var(--ink); }
 /* Media on hero */
 .hero__media{ position:relative; }
 .frame{
@@ -450,6 +477,7 @@ h1{
   .extras{ grid-template-columns: 1fr; }
   .materials{ grid-template-columns: 1fr; }
 }
+
 
 
 
