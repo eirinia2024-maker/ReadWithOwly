@@ -31,8 +31,11 @@
 
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
+html,body{ height:100%; }
+html { scroll-padding-top: 90px; }
+.section { scroll-margin-top: 90px; }
 body{
-  padding-top: 60px; /* подстрой при желании: 68–84px */
+  padding-top: 84px; /* подстрой при желании: 68–84px */
 }
 {
   margin:0;
@@ -448,6 +451,7 @@ h1{
   .materials{ grid-template-columns: 1fr; }
 
 }
+
 
 
 
