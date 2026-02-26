@@ -31,7 +31,6 @@
 
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
-html,body{ height:100%; }
 /* anchor offset for fixed header */
 html { scroll-padding-top: 110px; }
 /* apply offset to any anchor target */
@@ -39,19 +38,16 @@ html { scroll-padding-top: 110px; }
 html { scroll-padding-top: 90px; }
 .section { scroll-margin-top: 90px; }
 body{
-  padding-top: 84px; /* подстрой при желании: 68–84px */
-}
-{
   margin:0;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  padding-top: 84px; /* подстрой при желании */
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   color:var(--ink);
 
-  /* Background uses ONLY book colors */
   background:
-    radial-gradient(1100px 700px at 12% 0%, rgba(201,182,228,.55), transparent 60%), /* lav */
-    radial-gradient(900px 600px at 86% 12%, rgba(191,220,235,.55), transparent 55%), /* blue */
-    radial-gradient(900px 600px at 82% 86%, rgba(248,204,214,.55), transparent 55%), /* pink2 */
-    radial-gradient(820px 520px at 20% 86%, rgba(214,238,208,.52), transparent 55%), /* green2 */
+    radial-gradient(1100px 700px at 12% 0%, rgba(201,182,228,.55), transparent 60%),
+    radial-gradient(900px 600px at 86% 12%, rgba(191,220,235,.55), transparent 55%),
+    radial-gradient(900px 600px at 82% 86%, rgba(248,204,214,.55), transparent 55%),
+    radial-gradient(820px 520px at 20% 86%, rgba(214,238,208,.52), transparent 55%),
     var(--bg);
 }
 
@@ -455,6 +451,7 @@ h1{
   .materials{ grid-template-columns: 1fr; }
 
 }
+
 
 
 
